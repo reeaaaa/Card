@@ -1,0 +1,99 @@
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+margin: 0;
+padding: 0;
+bottom: 0;
+background-color: #242424;
+}
+
+#div_tong {
+width: 100%;
+height: 600px;
+position: relative;
+text-align: center;
+}
+
+#div_avt {
+width: 200px;
+height: 170px;
+margin: auto;
+position: relative;
+}
+
+#div_infor {
+width: 260px;
+height: 390px;
+margin: 0;
+padding: 0;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #0e0f0f;
+border-radius: 17px;
+}
+
+#div_tong p img {
+width: 200px;
+height: 200px;
+}
+
+#div_infor ul li img {
+width: 32px;
+height: 32px;
+}
+
+#div_ten h1,
+h3 {
+margin: 0;
+padding: 0;
+}
+
+#div_avt img {
+border-radius: 17px;
+}
+
+#div_ten button {
+color: white;
+font-size: 27px;
+font-weight: 500;
+background-color: #881122;
+border-radius: 7px;
+border: none;
+height: 45px;
+width: 200px;
+}
+
+#div_ten button:hover {
+font-weight: 500;
+font-size: 30px;
+}
+
+#div_infor ul {
+list-style-type: none;
+/*  2 dòng này cho li nằm ngang*/
+display: flex;
+flex-direction: row;
+margin: auto;
+/* cái này cho hàng icon cách ra ô discorver me*/
+margin-top: 8px;
+/*cái này tắt mặc định padding của ul*/
+padding: 0px;
+/*cái này cho dãy icon ra giữa*/
+justify-content: center;
+}
+
+#div_infor li {
+list-style-type: none;
+width: 40px;
+height: 40px;
+padding: 7px;
+}
+
+#div_infor form {
+margin: 0;
+}
+li1:hover{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/174/174855.png);
+}
