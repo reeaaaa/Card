@@ -22,8 +22,8 @@ position: relative;
 }
 
 #div_infor {
-width: 260px;
-height: 390px;
+width: 300px;
+height: 400px;
 margin: 0;
 padding: 0;
 position: fixed;
@@ -31,7 +31,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 background-color: #0e0f0f;
-border-radius: 17px;
+border-radius: 10px;
 }
 
 #div_tong p img {
@@ -40,34 +40,43 @@ height: 200px;
 }
 
 #div_infor ul li img {
-width: 32px;
-height: 32px;
+width: 30px;
+height: 30px;
 }
 
-#div_ten h1,
-h3 {
+#div_ten h2,
+h4 {
 margin: 0;
 padding: 0;
 }
 
 #div_avt img {
-border-radius: 17px;
+border-radius: 10px;
+box-shadow: 7px 5px 20px #525252;
 }
 
 #div_ten button {
 color: white;
 font-size: 27px;
-font-weight: 500;
+font-weight: 500; 
 background-color: #881122;
 border-radius: 7px;
 border: none;
 height: 45px;
 width: 200px;
+position: absolute;
+bottom: 19%;
+left: calc(50% - 100px);
 }
 
-#div_ten button:hover {
-font-weight: 500;
-font-size: 30px;
+#div_ten h4{
+    font-weight: 300;
+}
+#div_ten p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #div_infor ul {
@@ -82,6 +91,7 @@ margin-top: 8px;
 padding: 0px;
 /*cái này cho dãy icon ra giữa*/
 justify-content: center;
+margin-top: 50px;
 }
 
 #div_infor li {
@@ -94,6 +104,17 @@ padding: 7px;
 #div_infor form {
 margin: 0;
 }
-li1:hover{
-    background-image: url(https://cdn-icons-png.flaticon.com/128/174/174855.png);
+
+#div_infor ul{
+list-style-type: none;
+padding: 0;
+}
+
+#div_infor ul li ul {
+display: none;
+}
+
+#div_infor ul li:hover ul{
+display: block;
+position: absolute;
 }
