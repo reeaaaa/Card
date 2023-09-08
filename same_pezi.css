@@ -22,7 +22,7 @@ position: relative;
 }
 
 #div_infor {
-width: 300px;
+width: 290px;
 height: 400px;
 margin: 0;
 padding: 0;
@@ -57,7 +57,7 @@ box-shadow: 7px 5px 20px #525252;
 
 #div_ten button {
 color: white;
-font-size: 27px;
+font-size: 22px;
 font-weight: 500; 
 background-color: #881122;
 border-radius: 7px;
@@ -67,6 +67,7 @@ width: 200px;
 position: absolute;
 bottom: 19%;
 left: calc(50% - 100px);
+white-space: normal;
 }
 
 #div_ten h4{
